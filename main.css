@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+	border: none;
+}
+
+body {
+	background: linear-gradient(180deg, rgba(0,1,24,1) 0%, rgba(45,48,93,1) 100%);
+	color: #c4c4c4;
+}
+
+
+.label {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+	font-size: 1.1rem;
+}
+
+.desk-area {
+	text-align: center;
+}
+
+.desk-text {
+	margin-top: 25px;
+	display: flex;
+}
+
+label {
+	font-size: 1.3rem;
+	font-weight: 500;
+	margin-right: 10px;
+}
+
+input {
+	border-radius: 8px;
+	background-color: #4b4b4b;
+	width: 45%;
+
+	font-size: 2rem;
+	font-weight: 500;
+
+	border: none;
+	resize: none;
+
+	text-align: center;
+	padding: 10px 0px;
+	outline: 0;
+}
+
+.container {
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+
+.task {
+	background-color: rgb(12, 18, 26);
+
+	height: 420px;
+	width: 50%;
+	padding: 30px;
+
+	border-radius: 25px;
+	box-shadow: 0 0 65px #000000;
+}
+
+.Xs {
+	display: flex;
+	justify-content: center;
+	justify-content: space-around;
+
+	margin-top: 25px;
+}
+
+.x1, .x2 {
+	font-family: 'Poppins', sans-serif;
+	display: grid;
+	text-align: center;
+
+	font-size: 1.2rem;
+	font-family: 500;
+}
+
+.span-x1, .span-x2 {
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	box-shadow: 0 0 15px #000000;
+
+	background:rgb(167, 119, 212);
+}
+
+.accept {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.accept-button {
+	padding: 10px 10%;
+	background: linear-gradient(180deg, rgba(0,1,24,1) 0%, rgba(45,48,93,1) 100%);
+	border-radius: 10px;
+	color: #c0c0c0;
+	font-weight: 500;
+	font-size: 1rem;
+	border: 2px solid #5b04cc;
+	transition: 0.3s;
+	box-shadow: 0px 0px 15px #5b04cc;
+}
+
+.accept-button:hover {
+	color: #696969;
+}
+
+.accept-button:active{
+	color: #000000;
+	border: 2px solid #000000;
+	box-shadow: 0px 0px 15px #000000;
+	background: linear-gradient(0deg, rgba(0,1,24,1) 0%, rgba(45,48,93,1) 100%);
+}
+
+
+.desk-section {
+	text-align: center;
+	margin-top: 25px;
+
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+
