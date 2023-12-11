@@ -1,0 +1,25 @@
+@media only screen and (max-width: 738px) {
+	input {
+		font-size: 1.7rem;
+	}
+}
+@media only screen and (max-width: 700px) {
+	input {
+		font-size: 1.4rem;
+	}
+}
+@media only screen and (max-width: 675px) {
+	.desk-text {
+		display: block;
+	}
+	input {
+		width: 20%;
+	}
+	.section-a, .section-b {
+		margin-bottom: 10px;
+	}
+	.task {
+		height: 535px;
+		width: 60%
+	}
+}
